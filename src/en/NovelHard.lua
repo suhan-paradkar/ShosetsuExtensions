@@ -7,9 +7,7 @@
 return Require("Madara")("https://novelhard.com",{
 	id = 1234,
 	name = "NovelHard",
---[[
-	imageURL = "https://github.com/shosetsuorg/extensions/raw/dev/icons/NovelTrench.png",
-]]
+	imageURL = "https://github.com/Ethos021/ShosetsuExtension/NovelHard.png",
 
 	-- defaults values
 	latestNovelSel = "div.col-12.col-md-4.badge-pos-1",
