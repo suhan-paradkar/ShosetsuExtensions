@@ -31,10 +31,10 @@
   ],
   "scripts": [
     {
-      "name": "Novel Hard",
-      "fileName": "NovelHard"
-      "imageURL": "https://novelhard.com/wp-content/uploads/2022/07/favicon.png",
-      "id": 1234,
+      "name": "1stKissNovel",
+      "fileName": "1stKissNovel"
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.png",
+      "id": 9095,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
