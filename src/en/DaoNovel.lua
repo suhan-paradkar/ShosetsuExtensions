@@ -6,6 +6,7 @@ return Require("Madara")("https://daonovel.com/",{
 	novelListingURLPath = "novels-list",
 	shrinkURLNovel = "novels",
 	searchHasOper = true,
+        hasCloudFlare = true,
 
     genres = {
 		"Action",
