@@ -8,7 +8,6 @@ return Require("Madara")("https://novelr18.com",{
 	searchHasOper = true,
         latestNovelSel = "div.col-6.col-md-2.badge-pos-1",
         hasCloudFlare = true,
-        ajaxUsesFormData = true,
 
     genres = {
 		"Action",
@@ -48,3 +47,4 @@ return Require("Madara")("https://novelr18.com",{
         "Yuri"
 	}
 })
+
