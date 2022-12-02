@@ -32,9 +32,19 @@
   "scripts": [
     {
       "name": "1stKissNovel",
-      "fileName": "1stKissNovel"
+      "fileName": "1stKissNovel",
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.jpg",
       "id": 9095,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Asada Translations",
+      "fileName": "Asadatranslations",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/Asada.png",
+      "id": 9091,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
