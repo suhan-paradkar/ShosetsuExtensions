@@ -3,6 +3,7 @@ return Require("Madara")("https://asadatranslations.com",{
 	name = "Asada Translations",
 	imageURL = "https://asadatranslations.com/wp-content/uploads/2020/05/asada-1.png",
 
+        latestNovelSel = "div.col-6.col-md-2.badge-pos-2",
 	novelListingURLPath = "novel",
 	shrinkURLNovel = "novel",
 	searchHasOper = true,
