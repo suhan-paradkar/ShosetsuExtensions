@@ -129,6 +129,7 @@ function defaults:getPassage(url)
 	-- Remove/modify unwanted HTML elements to get a clean webpage.
 	htmlElement:select("div.lnbad-tag"):remove() -- LightNovelBastion text size
 	htmlElement:select("i.icon.j_open_para_comment.j_para_comment_count"):remove() -- BoxNovel, VipNovel numbers
+	htmlElement:select("div.code-block"):remove() -- NovelR18
 
 	return pageOfElem(htmlElement, true)
 end
