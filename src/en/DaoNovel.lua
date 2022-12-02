@@ -49,7 +49,7 @@ return Require("Madara")("https://daonovel.com/",{
         "Webcomics",
         "Wuxia",
         "Xianxia",
-        "Xuanhuan"
+        "Xuanhuan",
         "Yuri"
 	}
 })
