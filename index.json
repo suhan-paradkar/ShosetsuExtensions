@@ -26,7 +26,7 @@
     },
     {
       "name": "Madara",
-      "ver": "2.3.3"
+      "ver": "2.4.1"
     }
   ],
   "scripts": [
@@ -45,6 +45,16 @@
       "fileName": "Asadatranslations",
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/Asada.png",
       "id": 9091,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "DaoNovel",
+      "fileName": "DaoNovel",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/DaoNovel.png",
+      "id": 9001,
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",

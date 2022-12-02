@@ -1,0 +1,41 @@
+return Require("Madara")("https://daonovel.com/",{
+	id = 9001,
+	name = "DaoNovel",
+	imageURL = "https://daonovel.com/wp-content/uploads/2019/02/White-logo-no-background.png",
+
+	novelListingURLPath = "novels-list",
+	shrinkURLNovel = "novels",
+	searchHasOper = true,
+
+    genres = {
+		"Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Ecchi",
+        "Fantasy",
+        "Gender Bender",
+        "Harem",
+        "Historical",
+        "Horror",
+        "Josei",
+        "Martial Arts",
+        "Mature",
+        "Mecha",
+        "Mystery",
+        "Psychological",
+        "Romance",
+        "School Life",
+        "Sci-fi",
+        "Seinen",
+        "Shoujo",
+        "Shounen",
+        "Slice of life",
+        "Sports",
+        "Supernatural",
+        "Tragedy",
+        "Wuxia",
+        "Xianxia",
+        "Xuanhuan"
+	}
+})
