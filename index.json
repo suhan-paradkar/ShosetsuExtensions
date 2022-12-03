@@ -79,6 +79,16 @@
       "ver": "1.0.3",
       "libVer": "1.0.0",
       "md5": "27f79ea3c1e2f10f519fdeceb399ffe1"
+    },
+    {
+      "name": "VIPNovel",
+      "fileName": "VIPNovel",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/vipnovel.png",
+      "id": 8015,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": "717008f147bd905b06d9d8de3f8d7100"
     }
   ]
 }
