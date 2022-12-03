@@ -38,7 +38,17 @@
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
-      "md5": ""
+      "md5": "81537c87ce0da3d8e5a7e33c378eea8e"
+    },
+    {
+      "name": "AllNovelFull",
+      "fileName": "AllNovelFull",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/allnovelfull.png",
+      "id": 9006,
+      "lang": "en",
+      "ver": "1.0.3",
+      "libVer": "1.0.0",
+      "md5": "7116e5eef53f7cf632a42d625958f25a"
     },
     {
       "name": "Asada Translations",
@@ -48,7 +58,7 @@
       "lang": "en",
       "ver": "1.0.0",
       "libVer": "1.0.0",
-      "md5": ""
+      "md5": "dedc10388852860f2373160423fc0067"
     },
     {
       "name": "DaoNovel",
@@ -58,7 +68,7 @@
       "lang": "en",
       "ver": "1.0.2",
       "libVer": "1.0.0",
-      "md5": ""
+      "md5": "a6226a7a94efcc3070ddddd3fe7181aa"
     },
     {
       "name": "NovelR18",
@@ -68,7 +78,7 @@
       "lang": "en",
       "ver": "1.0.3",
       "libVer": "1.0.0",
-      "md5": ""
+      "md5": "27f79ea3c1e2f10f519fdeceb399ffe1"
     }
   ]
 }
