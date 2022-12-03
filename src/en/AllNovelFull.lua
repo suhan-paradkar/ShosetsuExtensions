@@ -3,6 +3,7 @@ return Require("NovelFull")("https://allnovelfull.com",{
 	name = "AllNovelFull",
 	imageURL = "https://allnovelfull.com/web/logo.png",
 
+        meta_offset = 0,
         ajax_hot = "/ajax-search?type=hot",
 	ajax_latest = "/ajax-search?type=latest",
         ajax_chapters = "/ajax-chapter-option",
