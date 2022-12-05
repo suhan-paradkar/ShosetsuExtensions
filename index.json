@@ -1,31 +1,11 @@
 {
   "libraries": [
     {
-      "name": "247truyen",
-      "ver": "1.1.2"
-    },
-    {
-      "name": "CommonCSS",
-      "ver": "1.0.1"
-    },
-    {
-      "name": "dkjson",
-      "ver": "1.0.1"
-    },
-    {
-      "name": "NovelFull",
+      "name": "WiseNovelFull",
       "ver": "2.0.6"
     },
     {
-      "name": "url",
-      "ver": "1.0.0"
-    },
-    {
-      "name": "WWVolare",
-      "ver": "1.2.1"
-    },
-    {
-      "name": "Madara",
+      "name": "WiseMadara",
       "ver": "2.4.4"
     }
   ],
@@ -36,9 +16,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.jpg",
       "id": 9095,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
-      "md5": "81537c87ce0da3d8e5a7e33c378eea8e"
+      "md5": "c103951e3a86152312ae1ee3ff2f8c10"
     },
     {
       "name": "AllNovelFull",
@@ -46,9 +26,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/allnovelfull.png",
       "id": 9006,
       "lang": "en",
-      "ver": "1.0.4",
+      "ver": "1.0.5",
       "libVer": "1.0.0",
-      "md5": "c1548ed34a1427f2c01369bade1bc5db"
+      "md5": "a235c8cd49aba4f4d7a83e53956cdbb6"
     },
     {
       "name": "Asada Translations",
@@ -56,9 +36,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/Asada.png",
       "id": 9091,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
-      "md5": "dedc10388852860f2373160423fc0067"
+      "md5": "b5ecdb8fc4fd355ee9e4021581cc2c3b"
     },
     {
       "name": "DaoNovel",
@@ -66,9 +46,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/DaoNovel.png",
       "id": 9001,
       "lang": "en",
-      "ver": "1.0.2",
+      "ver": "1.0.3",
       "libVer": "1.0.0",
-      "md5": "a6226a7a94efcc3070ddddd3fe7181aa"
+      "md5": "f88e49ea9ab4f730493ca6c1c24c9616"
     },
     {
       "name": "NovelMultiverse",
@@ -76,9 +56,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/novelmultiverse.png",
       "id": 7018,
       "lang": "en",
-      "ver": "1.0.0",
+      "ver": "1.0.1",
       "libVer": "1.0.0",
-      "md5": "da99a4901788764a4cdc50ff0581a82f"
+      "md5": "ae2cfd9dcadd1a49811aa303b1a96a9a"
     },
     {
       "name": "NovelR18",
@@ -86,9 +66,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/novelr18.png",
       "id": 9090,
       "lang": "en",
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "libVer": "1.0.0",
-      "md5": "27f79ea3c1e2f10f519fdeceb399ffe1"
+      "md5": "ae3686be9406a459efd260140b98a763"
     }
   ]
 }

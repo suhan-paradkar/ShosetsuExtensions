@@ -1,4 +1,4 @@
-return Require("Madara")("https://www.novelmultiverse.com",{
+return Require("WiseMadara")("https://www.novelmultiverse.com",{
 	id = 7018,
 	name = "NovelMultiverse",
 	imageURL = "https://www.novelmultiverse.com/wp-content/uploads/2020/04/novelmultiverse-48x48-2.png",

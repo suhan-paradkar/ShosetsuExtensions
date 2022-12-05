@@ -1,4 +1,4 @@
-return Require("Madara")("https://1stkissnovel.love",{
+return Require("WiseMadara")("https://1stkissnovel.love",{
 	id = 9095,
 	name = "1stKissNovel",
 	imageURL = "https://1stkissnovel.love/wp-content/uploads/2017/10/1STKISS_NOVEL.jpg",

@@ -1,4 +1,4 @@
-return Require("Madara")("https://novelr18.com",{
+return Require("WiseMadara")("https://novelr18.com",{
 	id = 9090,
 	name = "NovelR18",
 	imageURL = "https://novelr18.com/wp-content/uploads/2017/10/logo_.png",

@@ -1,4 +1,4 @@
-return Require("Madara")("https://asadatranslations.com",{
+return Require("WiseMadara")("https://asadatranslations.com",{
 	id = 9091,
 	name = "Asada Translations",
 	imageURL = "https://asadatranslations.com/wp-content/uploads/2020/05/asada-1.png",

@@ -1,4 +1,4 @@
-return Require("NovelFull")("https://allnovelfull.com",{
+return Require("WiseNovelFull")("https://allnovelfull.com",{
 	id = 9006,
 	name = "AllNovelFull",
 	imageURL = "https://allnovelfull.com/web/logo.png",

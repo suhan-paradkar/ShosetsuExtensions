@@ -1,4 +1,4 @@
-return Require("Madara")("https://daonovel.com/",{
+return Require("WiseMadara")("https://daonovel.com/",{
 	id = 9001,
 	name = "DaoNovel",
 	imageURL = "https://daonovel.com/wp-content/uploads/2019/02/White-logo-no-background.png",
