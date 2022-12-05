@@ -1,3 +1,5 @@
+-- {"id":9090, "ver":"1.0.5","libver":"1.0.0","author":"suhan-paradkar"}
+
 return Require("WiseMadara")("https://novelr18.com",{
 	id = 9090,
 	name = "NovelR18",

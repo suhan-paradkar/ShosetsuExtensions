@@ -1,3 +1,5 @@
+-- {"id":9001, "ver":"1.0.4","libver":"1.0.0","author":"suhan-paradkar"}
+
 return Require("WiseMadara")("https://daonovel.com/",{
 	id = 9001,
 	name = "DaoNovel",

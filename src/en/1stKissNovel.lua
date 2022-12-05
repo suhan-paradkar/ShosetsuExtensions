@@ -1,3 +1,5 @@
+-- {"id":9095, "ver":"1.0.2","libver":"1.0.0","author":"suhan-paradkar"}
+
 return Require("WiseMadara")("https://1stkissnovel.love",{
 	id = 9095,
 	name = "1stKissNovel",

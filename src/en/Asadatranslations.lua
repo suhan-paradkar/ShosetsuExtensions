@@ -1,3 +1,5 @@
+-- {"id":9091, "ver":"1.0.2","libver":"1.0.0","author":"suhan-paradkar"}
+
 return Require("WiseMadara")("https://asadatranslations.com",{
 	id = 9091,
 	name = "Asada Translations",
