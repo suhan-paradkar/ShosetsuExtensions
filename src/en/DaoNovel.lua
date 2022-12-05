@@ -1,4 +1,4 @@
--- {"id":9001, "ver":"1.0.4","libver":"1.0.0","author":"suhan-paradkar"}
+-- {"id":9001, "ver":"1.0.5","libver":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
 
 return Require("WiseMadara")("https://daonovel.com/",{
 	id = 9001,

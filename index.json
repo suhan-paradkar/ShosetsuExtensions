@@ -16,9 +16,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.jpg",
       "id": 9095,
       "lang": "en",
-      "ver": "1.0.1",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
-      "md5": "37b8125bd289e28ba60ce4ca17afc236"
+      "md5": ""
     },
     {
       "name": "AllNovelFull",
@@ -26,9 +26,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/allnovelfull.png",
       "id": 9006,
       "lang": "en",
-      "ver": "1.0.5",
+      "ver": "1.0.6",
       "libVer": "1.0.0",
-      "md5": "d4ca9c0bb51249f5d566d593455fa09e"
+      "md5": ""
     },
     {
       "name": "Asada Translations",
@@ -36,9 +36,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/Asada.png",
       "id": 9091,
       "lang": "en",
-      "ver": "1.0.1",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
-      "md5": "c3defe21e04fd31ff8e70beff9807c6e"
+      "md5": ""
     },
     {
       "name": "DaoNovel",
@@ -46,9 +46,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/DaoNovel.png",
       "id": 9001,
       "lang": "en",
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "libVer": "1.0.0",
-      "md5": "dce6ee6f4eca0a1b9bd7c68c7d2f092e"
+      "md5": ""
     },
     {
       "name": "NovelMultiverse",
@@ -56,9 +56,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/novelmultiverse.png",
       "id": 7018,
       "lang": "en",
-      "ver": "1.0.1",
+      "ver": "1.0.2",
       "libVer": "1.0.0",
-      "md5": "af9d682414eef042b8750be800dc8002"
+      "md5": ""
     },
     {
       "name": "NovelR18",
@@ -66,9 +66,9 @@
       "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/novelr18.png",
       "id": 9090,
       "lang": "en",
-      "ver": "1.0.4",
+      "ver": "1.0.5",
       "libVer": "1.0.0",
-      "md5": "76805a9373691a23e72f9491c0f11582"
+      "md5": ""
     }
   ]
 }
