@@ -1,6 +1,6 @@
--- {"id":9006, "ver":"1.0.8","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseNovelFull>=2.0.2"]}
+-- {"id":9006, "ver":"1.0.9","libVer":"1.0.0","author":"suhan-paradkar","dep":["NovelFull>=2.0.2"]}
 
-return Require("WiseNovelFull")("https://allnovelfull.com",{
+return Require("NovelFull")("https://allnovelfull.com",{
 	id = 9006,
 	name = "AllNovelFull",
 	imageURL = "https://allnovelfull.com/web/logo.png",

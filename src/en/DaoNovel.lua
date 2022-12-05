@@ -1,6 +1,6 @@
--- {"id":9001, "ver":"1.0.6","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
+-- {"id":9001, "ver":"1.0.7","libVer":"1.0.0","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
 
-return Require("WiseMadara")("https://daonovel.com/",{
+return Require("Madara")("https://daonovel.com/",{
 	id = 9001,
 	name = "DaoNovel",
 	imageURL = "https://daonovel.com/wp-content/uploads/2019/02/White-logo-no-background.png",

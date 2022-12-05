@@ -1,6 +1,6 @@
--- {"id":9091, "ver":"1.0.4","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
+-- {"id":9091, "ver":"1.0.5","libVer":"1.0.0","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
 
-return Require("WiseMadara")("https://asadatranslations.com",{
+return Require("Madara")("https://asadatranslations.com",{
 	id = 9091,
 	name = "Asada Translations",
 	imageURL = "https://asadatranslations.com/wp-content/uploads/2020/05/asada-1.png",

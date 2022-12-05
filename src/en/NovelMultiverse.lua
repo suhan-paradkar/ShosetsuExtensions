@@ -1,6 +1,6 @@
--- {"id":7018, "ver":"1.0.4","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
+-- {"id":7018, "ver":"1.0.5","libVer":"1.0.0","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
 
-return Require("WiseMadara")("https://www.novelmultiverse.com",{
+return Require("Madara")("https://www.novelmultiverse.com",{
 	id = 7018,
 	name = "NovelMultiverse",
 	imageURL = "https://www.novelmultiverse.com/wp-content/uploads/2020/04/novelmultiverse-48x48-2.png",

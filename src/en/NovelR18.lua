@@ -1,6 +1,6 @@
--- {"id":9090, "ver":"1.0.7","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
+-- {"id":9090, "ver":"1.0.8","libVer":"1.0.0","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
 
-return Require("WiseMadara")("https://novelr18.com",{
+return Require("Madara")("https://novelr18.com",{
 	id = 9090,
 	name = "NovelR18",
 	imageURL = "https://novelr18.com/wp-content/uploads/2017/10/logo_.png",
