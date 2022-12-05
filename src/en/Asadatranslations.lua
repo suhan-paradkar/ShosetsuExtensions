@@ -1,4 +1,4 @@
--- {"id":9091, "ver":"1.0.3","libver":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
+-- {"id":9091, "ver":"1.0.4","libVer":"1.0.0","author":"suhan-paradkar","dep":["WiseMadara>=2.2.0"]}
 
 return Require("WiseMadara")("https://asadatranslations.com",{
 	id = 9091,
