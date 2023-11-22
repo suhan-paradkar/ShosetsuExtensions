@@ -23,7 +23,7 @@
     {
       "name": "1stKissNovel.org",
       "fileName": "1stKissNovel.org",
-      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.org.jpg",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/1stkissnovel.org.png",
       "id": 909555555,
       "lang": "en",
       "ver": "1.0.0",
@@ -58,6 +58,16 @@
       "lang": "en",
       "ver": "1.0.6",
       "libVer": "1.0.1",
+      "md5": ""
+    },
+    {
+      "name": "DaoNovel.net",
+      "fileName": "DaoNovel.net",
+      "imageURL": "https://github.com/suhan-paradkar/ShosetsuExtensions/raw/main/icons/daonovel.net.png",
+      "id": 900655555,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
       "md5": ""
     },
     {
