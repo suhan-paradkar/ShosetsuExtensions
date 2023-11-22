@@ -1,4 +1,4 @@
--- {"ver":"2.4.1","author":"TechnoJo4","dep":["url"]}
+-- {"ver":"2.9.0","author":"TechnoJo4","dep":["url"]}
 
 local encode = Require("url").encode
 local text = function(v)
@@ -12,7 +12,7 @@ local defaults = {
 	searchNovelSel = "div.c-tabs-item__content",
 	novelListingURLPath = "novel",
 	-- Certain sites like TeamXNovel do not use [novelListingURLPath] and instead use a suffix to the query to declare what is expected.
- 	novelListingURLSuffix = "",
+	novelListingURLSuffix = "",
 	novelPageTitleSel = "div.post-title",
 	shrinkURLNovel = "novel",
 	searchHasOper = false, -- is AND/OR operation selector present?
@@ -30,7 +30,10 @@ local defaults = {
 	ajaxFormDataSel= "a.wp-manga-action-button",
 	ajaxFormDataAttr = "data-post",
 	ajaxFormDataUrl = "/wp-admin/admin-ajax.php",
-	ajaxSeriesUrl = "ajax/chapters/"
+	ajaxSeriesUrl = "ajax/chapters/",
+
+	--- Some sites require custom CSS to exist, such as RTL support
+	customStyle = "",
 }
 
 local ORDER_BY_FILTER_EXT = { "Relevance", "Latest", "A-Z", "Rating", "Trending", "Most Views", "New" }
@@ -124,14 +127,13 @@ function defaults:getPassage(url)
 	local title = htmlElement:selectFirst("ol.breadcrumb li.active"):text()
 	htmlElement = htmlElement:selectFirst("div.text-left")
 	-- Chapter title inserted before chapter text
-	htmlElement:child(0):before("<h1>" .. title .. "</h1>");
+	htmlElement:prepend("<h1>" .. title .. "</h1>");
 
 	-- Remove/modify unwanted HTML elements to get a clean webpage.
 	htmlElement:select("div.lnbad-tag"):remove() -- LightNovelBastion text size
 	htmlElement:select("i.icon.j_open_para_comment.j_para_comment_count"):remove() -- BoxNovel, VipNovel numbers
-	htmlElement:select("div.code-block"):remove() -- NovelR18
 
-	return pageOfElem(htmlElement, true)
+	return pageOfElem(htmlElement, true, self.customStyle)
 end
 
 ---@param image_element Element An img element of which the biggest image shall be selected.
@@ -170,6 +172,20 @@ local function img_src(image_element)
 	return image_element:attr("src")
 end
 
+---@param document Document The page containing novel information
+---@return string the novel description
+function defaults:parseNovelDescription(document)
+	local summaryContent = document:selectFirst("div.summary__content")
+	if summaryContent then
+		return table.concat(map(document:selectFirst("div.summary__content"):select("p"), text), "\n")
+	end
+	local mangaExcerpt = document:selectFirst("div.manga-excerpt")
+	if mangaExcerpt then
+		return mangaExcerpt:text()
+	end
+	return ""
+end
+
 ---@param url string
 ---@param loadChapters boolean
 ---@return NovelInfo
@@ -184,10 +200,16 @@ function defaults:parseNovel(url, loadChapters)
 	-- Temporarily saves a Jsoup selection for repeated use. Initial value used for status.
 	local selectedContent = doc:selectFirst("div.post-status"):select("div.post-content_item")
 
+	-- For some that doesn't have thumbnail
+	local imgUrl = doc:selectFirst("div.summary_image")
+	if imgUrl then
+		imgUrl = img_src(imgUrl:selectFirst("img.img-responsive"))
+	end
+
 	local info = NovelInfo {
-		description = table.concat(map(doc:selectFirst("div.summary__content"):select("p"), text), "\n"),
+		description = self.parseNovelDescription(doc),
 		title = titleElement:text(),
-		imageURL = img_src(doc:selectFirst("div.summary_image"):selectFirst("img.img-responsive")),
+		imageURL = imgUrl,
 		status = ({
 					OnGoing = NovelStatus.PUBLISHING,
 					Completed = NovelStatus.COMPLETED,

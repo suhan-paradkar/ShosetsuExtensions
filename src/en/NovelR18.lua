@@ -1,4 +1,4 @@
--- {"id":9090, "ver":"1.0.8","libVer":"1.0.0","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
+-- {"id":9090, "ver":"1.0.8","libVer":"1.0.1","author":"suhan-paradkar","dep":["Madara>=2.2.0"]}
 
 return Require("Madara")("https://novelr18.com",{
 	id = 9090,
